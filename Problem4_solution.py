@@ -13,7 +13,6 @@ def palindrome(y):
             if int(y/1000)%10==(y%100)-(y%10):
                 pal = True
     return pal
-print(palindrome(900009))
 while x < 998001:
     for i1 in range(99,1000):
         for i2 in range(99,1000):
